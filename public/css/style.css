@@ -1,0 +1,112 @@
+/* * {} */
+body {
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+    background-color: #F3F7F9;
+    font-family: sans-serif;
+}
+
+/*
+NAVBAR SECTION
+ */
+
+header {
+    margin: 0 10rem 0 10rem;
+}
+
+nav {
+    /* padding: 10px 50px 20px 5px; */
+    padding: 10px 0px 20px 0px;
+    border-bottom: 1px solid #DCE5E9;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+
+    /* background-color: aqua; */
+}
+
+nav ul li button {
+    border: none;
+    margin-top: -10px;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    /* border-radius: 12px 12px 12px 12px; */
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+nav ul a {
+    color: #263C48;
+    text-decoration: none;
+}
+
+nav ul .mid-nav li {
+    display: inline;
+    font-size: 1rem;
+    margin-right: 25px;
+
+
+}
+
+/*
+HERO SECTION
+ */
+main .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .hero h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+main .hero p {
+    text-align-last: center;
+    width: 30rem;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+/*
+CARD SECTION
+*/
+.card-section {
+    margin: 0 9rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.card {
+    background-color: #fff;
+    box-sizing: content-box;
+    padding: 20px;
+    max-width: 17rem;
+    border-radius: 40px;
+    /* margin-right: 5px; */
+}
+
+.card .middle-class button {
+    background-color: #3E5A69;
+    padding: 10px 10px 10px 30px;
+    border-radius: 50px;
+    width: 5rem;
+}
+
+.card .middle-class button span {
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 50%;
+}

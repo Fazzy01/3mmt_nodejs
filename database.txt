@@ -1,0 +1,2 @@
+{"username":"admin","password":"pass","confirm_password":"pass","email":"famaths01@gmail.com","btn":""}{"username":"fazzy01","password":"pass","confirm_password":"pass","email":"jamiufawazishola@gmail.com","btn":""}{"username":"famaths01","password":"opp","confirm_password":"opp","email":"me@domain.com","btn":""}
+{"username":"sherifaah","password":"tired","confirm_password":"tired","email":"support@loop.com","btn":""}
